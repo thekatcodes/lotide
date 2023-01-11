@@ -12,11 +12,11 @@ function eqArrays(arr1, arr2) {
 	}
 //what to return if isGood is true or false
 	if (isGood) {
-		return true;
+		console.log("Arrays are the same")
 	} else {
-		return false;
+		console.log("Arrays are not the same...")
 	}
 }
 
 // TEST
-assertEqual(eqArrays([1, 2, 3], [1, 2, 3]), true); // => should PASS
+eqArrays([1, 2, 3], [1, 2, 3]); // => should PASS
