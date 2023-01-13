@@ -1,4 +1,4 @@
-function eqArrays(arr1, arr2) {
+function assertArraysEqual(arr1, arr2) {
 	let isGood = true;
 //check if length of arrays are equal
 	if (arr1.length !== arr2.length) {
