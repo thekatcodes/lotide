@@ -31,9 +31,9 @@ const letterPositions = function (sentence) {
 
 	for (let i = 0; i < noSpaceSentence; i++) {
         if (results[noSpaceSentence[i]]){
-            results[noSpaceSentence[i]].push(i);//push(i) with() adds to the array
+            results[noSpaceSentence[i]].push(i); //push(i) with() adds to the array
         } else {
-            results[noSpaceSentence[i]]= [i];i] creates an array with the index
+            results[noSpaceSentence[i]]= [i]; //[i] creates an array with the index
         }
 	}
 	return results;
