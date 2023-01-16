@@ -9,7 +9,7 @@ const findKey = function (obj, callback) {
 	//else return undefined
 	return undefined;
 };
-
+module.exports = findKey;
 // findKey({
 //     "Blue Hill": { stars: 1 },
 //     "Akaleri":   { stars: 3 },
