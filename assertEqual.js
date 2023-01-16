@@ -1,9 +1,13 @@
-const assertEqual = function (actual, expected) {
+const assertEqual = function(actual, expected) {
+	let a = actual;
+	let e = expected;
 	if (actual === expected) {
-		console.log(`😊 Assertion Passed: ${actual} === ${expected}`);
+		console.log(`😊 Assertion Passed: ${a} === ${e}`);
 	} else if (actual !== expected) {
-		console.log(`☹️ Assertion Failed: ${actual} !== ${expected}`);
+		console.log(`☹️ Assertion Failed: ${a} !== ${e}`);
 	}
+    
 };
 
-module.eports = assertEqual;
+
+module.exports = assertEqual;
