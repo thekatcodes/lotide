@@ -17,6 +17,4 @@ function eqArrays(arr1, arr2) {
 		return false;
 	}
 }
-
-// TEST
-assertEqual(eqArrays([1, 2, 3], [1, 2, 3]), true); // => should PASS
+module.exports = eqArrays;
