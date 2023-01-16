@@ -1,8 +1,5 @@
-const assertEqual = require('./assertEqual');
+const tail = require('../tail');
 
-const tail = function (array) {
-	return array.slice[1];
-};
 
 // Test Case: Check the original array
 const words = ["Yo Yo", "Lighthouse", "Labs"];
